@@ -3,19 +3,20 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="Departamentos temporarios en Córdoba - Totalmente equipados">
-<title>Departamentos - Tu Complejo</title>
+<meta name="description" content="Wayra Huasi - Alojamiento temporario en Catamarca Capital. Departamento equipado a 10 cuadras de la plaza principal.">
+<title>Wayra Huasi - Departamento</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
 <header class="bg-indigo-800 text-white shadow-lg">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold">Tu Complejo</h1>
+    <img src="assets/img/ICON/logo-w.png" alt="Logo Wayra Huasi" class="h-16 w-16"/>
+    <h1 class="text-2xl font-bold">Wayra Huasi</h1>
     <nav>
         <ul class="flex gap-4">
         <li><a class="hover:text-indigo-200" href="index.html">Inicio</a></li>
-        <li><a class="hover:text-indigo-200" href="departamentos.html">Departamentos</a></li>
+        <li><a class="hover:text-indigo-200" href="departamentos.html">El Departamento</a></li>
         <li><a class="hover:text-indigo-200" href="servicios.html">Servicios</a></li>
         <li><a class="hover:text-indigo-200" href="contacto.html">Contacto</a></li>
         </ul>
@@ -24,49 +25,82 @@
 </header>
 
 <main class="container mx-auto px-6 py-12">
-    <h2 class="text-3xl font-bold text-center mb-8">Nuestros departamentos</h2>
+    <h2 class="text-3xl font-bold text-center mb-2">El Departamento</h2>
+    <p class="text-center text-gray-500 mb-10">Alquiler temporario — Catamarca Capital</p>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Card principal del depto -->
+    <article class="bg-white rounded-xl shadow-lg overflow-hidden max-w-3xl mx-auto">
+        <img src="assets/img/DPTO/Living1.jpg" alt="Departamento Wayra Huasi" class="w-full object-cover h-72">
+        <div class="p-8">
+            <h3 class="text-2xl font-bold mb-1">Wayra Huasi Alojamiento</h3>
+            <p class="text-gray-500 mb-4">📍 Calle Congresal Centeno 325, Catamarca Capital — a 10 cuadras de la plaza principal</p>
 
-    <!-- Depto 1 -->
-    <article class="bg-white rounded shadow hover:shadow-xl transition">
-        <img src="assets/img/depto1.jpg" alt="Depto 1" class="rounded-t">
-        <div class="p-6">
-        <h3 class="text-xl font-semibold mb-2">Depto 1 - Centro</h3>
-        <p class="text-sm text-gray-600 mb-4">2 ambientes • Hasta 3 personas</p>
-        <ul class="text-sm space-y-1">
-            <li>✅ Cocina completa con heladera</li>
-            <li>✅ WiFi 100 Mbps</li>
-            <li>✅ Smart TV 43"</li>
-            <li>✅ Aire acondicionado</li>
-            <li>✅ Ropa de cama y toallas</li>
-        </ul>
-        <div class="mt-4 flex justify-between items-center">
-            <span class="text-amber-600 font-bold">$15.000/noche</span>
-            <a href="https://wa.me/5493515084648?text=Quiero%20reservar%20el%20depto%201" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm">Reservar</a>
-        </div>
+            <ul class="grid grid-cols-2 gap-2 text-sm mb-6">
+                <li>📺 TV Smart</li>
+                <li>🛜 WiFi incluido</li>
+                <li>🍳 Cocina equipada</li>
+                <li>🚿 Baño completo</li>
+                <li>❄️ Aire frío/calor</li>
+                <li>🏙️ Zona céntrica</li>
+            </ul>
+
+            <!-- Tabla de precios -->
+            <h4 class="text-xl font-bold mb-4 text-center">Promociones especiales</h4>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-2 text-center">
+                <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4">
+                    <p class="text-2xl font-bold text-indigo-700">$37.000</p>
+                    <p class="text-sm text-gray-600">Por 1 día</p>
+                </div>
+                <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4">
+                    <p class="text-2xl font-bold text-indigo-700">$96.000</p>
+                    <p class="text-sm text-gray-600">Por 3 días</p>
+                </div>
+                <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4">
+                    <p class="text-2xl font-bold text-indigo-700">$200.000</p>
+                    <p class="text-sm text-gray-600">Por 7 días</p>
+                </div>
+                <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4">
+                    <p class="text-2xl font-bold text-indigo-700">$290.000</p>
+                    <p class="text-sm text-gray-600">Por 10 días</p>
+                </div>
+            </div>
+            <p class="text-center text-sm text-gray-500 mb-6">* Precios para 2 personas</p>
+
+            <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                <a href="https://wa.me/5493834506000?text=Hola!%20Quiero%20consultar%20disponibilidad%20en%20Wayra%20Huasi" target="_blank"
+                   class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-center">
+                    💬 Reservar por WhatsApp (1)
+                </a>
+                <a href="https://wa.me/5493834553249?text=Hola!%20Quiero%20consultar%20disponibilidad%20en%20Wayra%20Huasi" target="_blank"
+                   class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-center">
+                    💬 Reservar por WhatsApp (2)
+                </a>
+            </div>
         </div>
     </article>
 
-    <!-- Depto 2 -->
-    <article class="bg-white rounded shadow hover:shadow-xl transition">
-        <img src="assets/img/depto2.jpg" alt="Depto 2" class="rounded-t">
-        <div class="p-6">
-        <h3 class="text-xl font-semibold mb-2">Depto 2 - Nueva Córdoba</h3>
-        <p class="text-sm text-gray-600 mb-4">3 ambientes • Hasta 4 personas</p>
-        <ul class="text-sm space-y-1">
-            <li>✅ Cocina completa con lavavajillas</li>
-            <li>✅ WiFi 100 Mbps</li>
-            <li>✅ Smart TV 50"</li>
-            <li>✅ Aire en todos los ambientes</li>
-            <li>✅ Balcón con vista</li>
-        </ul>
-        <div class="mt-4 flex justify-between items-center">
-            <span class="text-amber-600 font-bold">$18.000/noche</span>
-            <a href="https://wa.me/5493515084648?text=Quiero%20reservar%20el%20depto%202" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm">Reservar</a>
+    <!-- Galería -->
+    <section class="mt-12">
+        <h3 class="text-2xl font-bold text-center mb-6">Galería</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img src="assets/img/DPTO/Living1.jpg" alt="Living" class="rounded-lg shadow object-cover h-40 w-full">
+            <img src="assets/img/DPTO/Cocina.jpg" alt="Cocina" class="rounded-lg shadow object-cover h-40 w-full">
+            <img src="assets/img/DPTO/Habitacion1.jpg" alt="Habitación" class="rounded-lg shadow object-cover h-40 w-full">
+            <img src="assets/img/DPTO/Baño.jpg" alt="Baño" class="rounded-lg shadow object-cover h-40 w-full">
         </div>
-        </div>
-    </article>
+    </section>
+</main>
 
-    </div>
-</main
+<!-- WhatsApp Flotante -->
+<a href="https://wa.me/5493834506000?text=Hola!%20Quiero%20consultar%20disponibilidad%20en%20Wayra%20Huasi" target="_blank"
+   class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg text-xl">
+    💬
+</a>
+
+<footer class="bg-indigo-900 text-white py-6 text-center">
+    <p>&copy; 2026 Wayra Huasi - Alojamiento Temporario</p>
+    <p class="text-sm mt-1">Calle Congresal Centeno 325, Catamarca Capital</p>
+</footer>
+
+</body>
+</html>
